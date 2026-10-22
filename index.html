@@ -1,0 +1,630 @@
+<!-- Maquetación principal de la web de recursos gráficos para streamers de WoW Forever (LATAM y Europa). -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos gráficos comunidad LA MANADA</title>
+  <meta name="description" content="Usa estos recursos en el contenido relacionado con la comunidad, para mantener la coherencia de marca.">
+  <link rel="icon" type="image/png" href="logo-byzontt.png">
+  <link rel="apple-touch-icon" href="logo-byzontt.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Cinzel:wght@600;700;900&family=Marcellus+SC&family=Outfit:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="tema-oscuro">
+
+  <!-- Fondo dinámico con partículas y resplandor -->
+  <div class="fondo-ambiente" aria-hidden="true">
+    <div class="orbe orbe-dorado"></div>
+    <div class="orbe orbe-azul"></div>
+    <div class="orbe orbe-rojo"></div>
+    <div class="malla-cuadricula"></div>
+  </div>
+
+  <!-- Barra de Navegación -->
+  <header class="cabecera-principal">
+    <div class="contenedor contenedor-cabecera">
+      <a href="#inicio" class="logotipo-enlace" id="enlace-logo" title="Comunidad WoW Forever">
+        <img src="logo-byzontt.png" alt="Logo Comunidad WoW Forever" class="imagen-logo-cabecera" width="46" height="46">
+        <div class="texto-logo">
+          <span class="titulo-marca">Comunidad</span>
+          <span class="subtitulo-marca">WOW FOREVER</span>
+        </div>
+      </a>
+
+      <!-- Navegación de Secciones -->
+      <nav class="navegacion-central" aria-label="Navegación principal">
+        <a href="#colores" class="nav-enlace">Colores</a>
+        <a href="#logos" class="nav-enlace">Logos</a>
+        <a href="#fuentes" class="nav-enlace">Tipografías</a>
+        <a href="#directrices" class="nav-enlace">Guía de Uso</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- Hero Section -->
+    <section class="seccion-hero">
+      <div class="contenedor contenedor-hero">
+        <div class="distintivo-comunidad">
+          <span class="punto-pulso"></span>
+          <span>Kit de Marca Oficial</span>
+        </div>
+        <h1 class="titulo-hero">
+          Recursos gráficos comunidad <span class="destacado-oro">LA MANADA</span>
+        </h1>
+        <p class="descripcion-hero">
+          Usa estos recursos en el contenido relacionado con la comunidad, para mantener la coherencia de marca.
+        </p>
+
+        <div class="botones-hero">
+          <a href="#colores" class="btn btn-primario" id="btn-explorar-colores">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor">
+              <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a3.5 3.5 0 014.95 4.95l-4.9 4.9A3.5 3.5 0 0110 14.243zm6.364-3.485l-4.9 4.9a1.5 1.5 0 002.122 2.121l4.9-4.9a1.5 1.5 0 00-2.122-2.121z" clip-rule="evenodd"/>
+            </svg>
+            <span>Ver Paleta de Colores</span>
+          </a>
+          <a href="#logos" class="btn btn-secundario" id="btn-explorar-logos">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor">
+              <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/>
+            </svg>
+            <span>Descargar Logos</span>
+          </a>
+        </div>
+
+        <!-- Barra de métricas y compatibilidad -->
+        <div class="rejilla-estadisticas">
+          <div class="tarjeta-estadistica">
+            <span class="valor-estadistica">100%</span>
+            <span class="etiqueta-estadistica">Vectorial & SVG</span>
+          </div>
+          <div class="divisor-vertical"></div>
+          <div class="tarjeta-estadistica">
+            <span class="valor-estadistica">OBS & Twitch</span>
+            <span class="etiqueta-estadistica">Compatibilidad Total</span>
+          </div>
+          <div class="divisor-vertical"></div>
+          <div class="tarjeta-estadistica">
+            <span class="valor-estadistica">LATAM + EU</span>
+            <span class="etiqueta-estadistica">Comunidades Unidas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 1: PALETA DE COLORES -->
+    <section class="seccion seccion-colores" id="colores">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <span class="subtitulo-seccion">SISTEMA CROMÁTICO</span>
+          <h2 class="titulo-seccion">Paleta Oficial de Colores</h2>
+          <p class="parrafo-seccion">
+            Haz clic sobre cualquier valor HEX o RGB para copiarlo instantáneamente al portapapeles.
+          </p>
+        </div>
+
+        <!-- Rejilla de Colores Fijos -->
+        <div class="rejilla-colores" id="contenedor-tarjetas-colores">
+          <!-- Tarjeta: #F79016 -->
+          <div class="tarjeta-color">
+            <div class="muestra-color" style="background-color: #F79016;" title="Clic para copiar #F79016" data-hex="#F79016"></div>
+            <div class="cuerpo-tarjeta-color">
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">#F79016</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="#F79016" aria-label="Copiar código HEX #F79016">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">rgb(247, 144, 22)</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="rgb(247, 144, 22)" aria-label="Copiar código RGB">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta: #98371E -->
+          <div class="tarjeta-color">
+            <div class="muestra-color" style="background-color: #98371E;" title="Clic para copiar #98371E" data-hex="#98371E"></div>
+            <div class="cuerpo-tarjeta-color">
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">#98371E</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="#98371E" aria-label="Copiar código HEX #98371E">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">rgb(152, 55, 30)</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="rgb(152, 55, 30)" aria-label="Copiar código RGB">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta: #2FAF6E -->
+          <div class="tarjeta-color">
+            <div class="muestra-color" style="background-color: #2FAF6E;" title="Clic para copiar #2FAF6E" data-hex="#2FAF6E"></div>
+            <div class="cuerpo-tarjeta-color">
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">#2FAF6E</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="#2FAF6E" aria-label="Copiar código HEX #2FAF6E">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">rgb(47, 175, 110)</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="rgb(47, 175, 110)" aria-label="Copiar código RGB">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta: #D26830 -->
+          <div class="tarjeta-color">
+            <div class="muestra-color" style="background-color: #D26830;" title="Clic para copiar #D26830" data-hex="#D26830"></div>
+            <div class="cuerpo-tarjeta-color">
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">#D26830</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="#D26830" aria-label="Copiar código HEX #D26830">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="fila-codigo-color">
+                <span class="texto-codigo">rgb(210, 104, 48)</span>
+                <button type="button" class="btn-copiar-valor" data-copiar="rgb(210, 104, 48)" aria-label="Copiar código RGB">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"/>
+                    <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aviso para streamers -->
+        <div class="caja-aviso-obs">
+          <div class="icono-aviso">
+            <svg viewBox="0 0 20 20" width="22" height="22" fill="currentColor">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div class="texto-aviso">
+            <strong>Consejo para OBS Studio:</strong> Usa <em>#F79016</em> y <em>#2FAF6E</em> para textos y alertas, y <em>#98371E</em> junto a <em>#D26830</em> para bordes y marcos de cámara.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: LOGOS OFICIALES -->
+    <section class="seccion seccion-logos" id="logos">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <span class="subtitulo-seccion">IDENTIDAD VISUAL OFICIAL</span>
+          <h2 class="titulo-seccion">Logos e Identidad Gráfica</h2>
+          <p class="parrafo-seccion">
+            Descarga los recursos oficiales en formato vectorial SVG y formato PNG con fondo transparente en alta definición.
+          </p>
+        </div>
+
+        <!-- Barra de herramientas (Filtro por formato y Contraste de fondo) -->
+        <div class="barra-herramientas-logos">
+          <div class="grupo-control">
+            <span class="etiqueta-control">Contraste de fondo:</span>
+            <button type="button" class="btn-contraste activo" data-fondo="oscuro" id="btn-fondo-oscuro">Oscuro</button>
+            <button type="button" class="btn-contraste" data-fondo="claro" id="btn-fondo-claro">Claro</button>
+          </div>
+          <div class="grupo-control">
+            <span class="etiqueta-control">Ver formato:</span>
+            <div class="mini-filtro-logos" id="filtro-logos-formato">
+              <button type="button" class="btn-mini activo" data-filtro-formato="todos">Todos (6)</button>
+              <button type="button" class="btn-mini" data-filtro-formato="svg">Vector SVG (3)</button>
+              <button type="button" class="btn-mini" data-filtro-formato="png">Raster PNG (3)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOQUE FORMATO SVG -->
+        <div class="bloque-formato-logos" id="bloque-logos-svg" data-formato="svg">
+          <div class="encabezado-categoria-formato">
+            <span class="icono-tipo-formato formato-svg">SVG</span>
+            <div class="info-categoria-formato">
+              <h3 class="titulo-categoria-formato">Logos en Formato SVG (Vectorial)</h3>
+              <p class="desc-categoria-formato">Archivos vectoriales escalables a cualquier resolución sin pérdida de calidad. Ideales para OBS y diseño.</p>
+            </div>
+          </div>
+          <div class="rejilla-logos">
+            <!-- SVG 1: LA_MANADA_SVG.svg -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LA_MANADA_SVG.svg" alt="La Manada Logo Oficial SVG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">La Manada — Oficial</h3>
+                  <span class="badge-tipo-logo badge-svg">Vector SVG</span>
+                </div>
+                <p class="descripcion-logo">Isotipo y emblema vectorial principal de la comunidad La Manada.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LA_MANADA_SVG.svg" download="LA_MANADA_SVG.svg" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar SVG</span>
+                  </a>
+                  <a href="images/logos/LA_MANADA_SVG.svg" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- SVG 2: LA_MANADA_EUROPA_SVG.svg -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LA_MANADA_EUROPA_SVG.svg" alt="La Manada Europa Logo SVG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">La Manada — Europa</h3>
+                  <span class="badge-tipo-logo badge-svg">Vector SVG</span>
+                </div>
+                <p class="descripcion-logo">Emblema vectorial oficial para la comunidad y creadores de Europa.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LA_MANADA_EUROPA_SVG.svg" download="LA_MANADA_EUROPA_SVG.svg" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar SVG</span>
+                  </a>
+                  <a href="images/logos/LA_MANADA_EUROPA_SVG.svg" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- SVG 3: LOGO_BYZONTT_SVG.svg -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LOGO_BYZONTT_SVG.svg" alt="Logo Byzontt SVG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">Byzontt — Oficial</h3>
+                  <span class="badge-tipo-logo badge-svg">Vector SVG</span>
+                </div>
+                <p class="descripcion-logo">Logotipo vectorial de Byzontt con resplandor dorado de alta fidelidad.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LOGO_BYZONTT_SVG.svg" download="LOGO_BYZONTT_SVG.svg" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar SVG</span>
+                  </a>
+                  <a href="images/logos/LOGO_BYZONTT_SVG.svg" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- BLOQUE FORMATO PNG -->
+        <div class="bloque-formato-logos" id="bloque-logos-png" data-formato="png">
+          <div class="encabezado-categoria-formato">
+            <span class="icono-tipo-formato formato-png">PNG</span>
+            <div class="info-categoria-formato">
+              <h3 class="titulo-categoria-formato">Logos en Formato PNG (Fondo Transparente)</h3>
+              <p class="desc-categoria-formato">Imágenes en alta definición listas para superponer en directos, miniaturas y redes sociales.</p>
+            </div>
+          </div>
+          <div class="rejilla-logos">
+            <!-- PNG 1: LA_MANADA_TEXTO.png -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LA_MANADA_TEXTO.png" alt="La Manada Texto PNG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">La Manada — Texto</h3>
+                  <span class="badge-tipo-logo badge-png">Raster PNG</span>
+                </div>
+                <p class="descripcion-logo">Versión tipográfica con texto y fondo transparente en alta resolución.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LA_MANADA_TEXTO.png" download="LA_MANADA_TEXTO.png" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar PNG</span>
+                  </a>
+                  <a href="images/logos/LA_MANADA_TEXTO.png" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PNG 2: LA_MANADA_EUROPA_PNG.png -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LA_MANADA_EUROPA_PNG.png" alt="La Manada Europa PNG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">La Manada — Europa</h3>
+                  <span class="badge-tipo-logo badge-png">Raster PNG</span>
+                </div>
+                <p class="descripcion-logo">Emblema de La Manada Europa con fondo transparente para directos y paneles.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LA_MANADA_EUROPA_PNG.png" download="LA_MANADA_EUROPA_PNG.png" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar PNG</span>
+                  </a>
+                  <a href="images/logos/LA_MANADA_EUROPA_PNG.png" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PNG 3: LOGO_BYZONTT_PNG.png -->
+            <article class="tarjeta-logo">
+              <div class="area-grafica-logo fondo-oscuro">
+                <img src="images/logos/LOGO_BYZONTT_PNG.png" alt="Logo Byzontt PNG" class="imagen-logo-tarjeta" loading="lazy">
+              </div>
+              <div class="cuerpo-tarjeta-logo">
+                <div class="cabecera-logo-item">
+                  <h3 class="titulo-item-logo">Byzontt — Oficial</h3>
+                  <span class="badge-tipo-logo badge-png">Raster PNG</span>
+                </div>
+                <p class="descripcion-logo">Logotipo Byzontt de alta resolución sin fondo para directos y miniaturas.</p>
+                <div class="acciones-tarjeta-logo">
+                  <a href="images/logos/LOGO_BYZONTT_PNG.png" download="LOGO_BYZONTT_PNG.png" class="btn btn-sm btn-primario">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                    <span>Descargar PNG</span>
+                  </a>
+                  <a href="images/logos/LOGO_BYZONTT_PNG.png" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secundario">
+                    <span>Ver Original</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: TIPOGRAFÍAS Y PROBADOR EN VIVO -->
+    <section class="seccion seccion-fuentes" id="fuentes">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <span class="subtitulo-seccion">TIPOGRAFÍAS OFICIALES</span>
+          <h2 class="titulo-seccion">Fuentes y Probador de Nicknames</h2>
+          <p class="parrafo-seccion">
+            Escribe tu nombre de streamer o texto de alerta para ver cómo lucirá con las fuentes recomendadas del proyecto.
+          </p>
+        </div>
+
+        <!-- Probador en Vivo (Sandbox) -->
+        <div class="probador-fuente-caja">
+          <div class="probador-cabecera">
+            <label for="entrada-texto-streamer" class="etiqueta-probador">Escribe tu nick o texto de prueba:</label>
+            <div class="probador-controles">
+              <span class="indicador-tamano" id="indicador-tamano-fuente">Tamaño: 42px</span>
+              <input type="range" id="deslizador-tamano" min="24" max="72" value="42" class="deslizador-rango">
+            </div>
+          </div>
+          <div class="caja-entrada-wrapper">
+            <input type="text" id="entrada-texto-streamer" value="TuCanal_Stream" class="entrada-streamer" placeholder="Escribe algo épico...">
+          </div>
+        </div>
+
+        <!-- Muestras de Fuentes -->
+        <div class="rejilla-fuentes">
+          <!-- Fuente 1: Marcellus SC (Títulos) -->
+          <article class="tarjeta-fuente">
+            <div class="cabecera-fuente">
+              <div>
+                <h3 class="nombre-fuente">Marcellus SC (Para Títulos)</h3>
+                <span class="clasificacion-fuente">Serif Clásica Trajana • Mayúsculas Legendarias</span>
+              </div>
+              <a href="https://fonts.google.com/specimen/Marcellus+SC?preview.script=Latn" target="_blank" rel="noopener noreferrer" class="btn-descargar-fuente" id="btn-fuente-marcellus">
+                <span>Google Fonts</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="muestra-texto-fuente fuente-marcellus" id="muestra-marcellus">
+              TuCanal_Stream
+            </div>
+            <div class="detalles-fuente">
+              <span class="etiqueta-uso">Uso recomendado:</span> Títulos principales de transmisión, banners, cabeceras y portadas oficiales.
+            </div>
+          </article>
+
+          <!-- Fuente 2: Rajdhani (Subtítulos) -->
+          <article class="tarjeta-fuente">
+            <div class="cabecera-fuente">
+              <div>
+                <h3 class="nombre-fuente">Rajdhani (Para Subtítulos)</h3>
+                <span class="clasificacion-fuente">Sans Serif Modular • Fuerza & Gran Impacto</span>
+              </div>
+              <a href="https://fonts.google.com/specimen/Rajdhani" target="_blank" rel="noopener noreferrer" class="btn-descargar-fuente" id="btn-fuente-rajdhani">
+                <span>Google Fonts</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="muestra-texto-fuente fuente-rajdhani" id="muestra-rajdhani">
+              TuCanal_Stream
+            </div>
+            <div class="detalles-fuente">
+              <span class="etiqueta-uso">Uso recomendado:</span> Subtítulos, nombres de categorías, alertas de directos y tarjetas informativas.
+            </div>
+          </article>
+
+          <!-- Fuente 3: Alegreya Sans (Texto Plano) -->
+          <article class="tarjeta-fuente">
+            <div class="cabecera-fuente">
+              <div>
+                <h3 class="nombre-fuente">Alegreya Sans (Para Texto Plano)</h3>
+                <span class="clasificacion-fuente">Humanist Sans • Máxima Legibilidad en Pantalla</span>
+              </div>
+              <a href="https://fonts.google.com/specimen/Alegreya+Sans" target="_blank" rel="noopener noreferrer" class="btn-descargar-fuente" id="btn-fuente-alegreya">
+                <span>Google Fonts</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="muestra-texto-fuente fuente-alegreya" id="muestra-alegreya">
+              TuCanal_Stream
+            </div>
+            <div class="detalles-fuente">
+              <span class="etiqueta-uso">Uso recomendado:</span> Párrafos, descripciones de stream, paneles informativos y cuadros de chat.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SECCIÓN 5: GUÍA DE MARCA Y DIRECTRICES -->
+    <section class="seccion seccion-directrices" id="directrices">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <span class="subtitulo-seccion">BUENAS PRÁCTICAS</span>
+          <h2 class="titulo-seccion">Guía Rápida de Identidad</h2>
+          <p class="parrafo-seccion">
+            Pautas sencillas para mantener la fuerza y coherencia visual del proyecto en todas las plataformas de transmisión.
+          </p>
+        </div>
+
+        <div class="rejilla-directrices">
+          <div class="tarjeta-directriz permitida">
+            <div class="icono-directriz">
+              <svg viewBox="0 0 20 20" width="24" height="24" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+            <h3>Lo que SÍ debes hacer</h3>
+            <ul class="lista-directrices">
+              <li>Colocar el logotipo en esquinas superiores o sobre el marco de tu cámara web.</li>
+              <li>Mantener una zona de resguardo visual mínima igual al tamaño de la corona del logo.</li>
+              <li>Utilizar los colores oficiales para tus alertas de bits, suscripciones y donaciones.</li>
+              <li>Añadir el tag oficial #WoWForeverLatam o #WoWForeverEU en tus directos.</li>
+            </ul>
+          </div>
+
+          <div class="tarjeta-directriz prohibida">
+            <div class="icono-directriz">
+              <svg viewBox="0 0 20 20" width="24" height="24" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+            <h3>Lo que NO debes hacer</h3>
+            <ul class="lista-directrices">
+              <li>No deformar ni estirar los logos de forma desproporcionada.</li>
+              <li>No alterar los tonos cromáticos base por colores flúor que rompan la inmersión.</li>
+              <li>No tapar elementos clave de la interfaz del juego (mapa, barras de acción principales).</li>
+              <li>No usar los logos oficiales para promocionar servidores o productos no autorizados.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal de Previsualización y Código SVG -->
+  <dialog id="modal-visor-svg" class="modal-dialogo" aria-labelledby="modal-titulo">
+    <div class="modal-contenido">
+      <div class="modal-cabecera">
+        <h3 id="modal-titulo" class="modal-titulo">Detalles del Recurso</h3>
+        <button type="button" class="btn-cerrar-modal" id="btn-cerrar-modal" aria-label="Cerrar modal">&times;</button>
+      </div>
+      <div class="modal-cuerpo">
+        <div class="visor-grafico" id="visor-grafico-svg"></div>
+        <div class="opciones-codigo">
+          <label for="codigo-svg-texto" class="etiqueta-codigo">Código SVG puro:</label>
+          <textarea id="codigo-svg-texto" class="area-codigo" readonly rows="6"></textarea>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <button type="button" class="btn btn-secundario" id="btn-copiar-codigo-svg">Copiar Código SVG</button>
+        <button type="button" class="btn btn-primario" id="btn-descargar-archivo-svg">Descargar Archivo .SVG</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast de Notificación Flotante -->
+  <div id="notificacion-toast" class="notificacion-toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor">
+      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+    </svg>
+    <span id="mensaje-toast">¡Copiado al portapapeles!</span>
+  </div>
+
+  <!-- Pie de Página -->
+  <footer class="pie-pagina">
+    <div class="contenedor contenedor-pie">
+      <div class="columna-pie">
+        <div class="marca-pie">
+          <span class="titulo-pie">WOW FOREVER STREAMERS</span>
+          <p class="descripcion-pie">
+            Comunidad hispanohablante y europea de World of Warcraft Forever. Creado por y para streamers apasionados por Azeroth.
+          </p>
+        </div>
+      </div>
+      <div class="columna-pie enlaces-pie">
+        <h4>Secciones</h4>
+        <a href="#colores">Paleta Cromática</a>
+        <a href="#logos">Logos</a>
+        <a href="#fuentes">Tipografías</a>
+        <a href="#directrices">Guía de Uso</a>
+      </div>
+      <div class="columna-pie">
+        <h4>Regiones Activas</h4>
+        <div class="etiquetas-regiones">
+          <span class="badge-region-pie">🇦🇷 LATAM Sur</span>
+          <span class="badge-region-pie">🇲🇽 LATAM Norte</span>
+          <span class="badge-region-pie">🇪🇸 Europa / España</span>
+          <span class="badge-region-pie">🌍 Servidores Globales</span>
+        </div>
+      </div>
+    </div>
+    <div class="credito-inferior">
+      <div class="contenedor">
+        <p>© Byzontt Forever 2026 todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
